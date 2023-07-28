@@ -30,13 +30,6 @@ class ElectricCar extends Car {
     }
 }
 
-// const carTesla = {
-//     make: `Tesla`,
-//     model: `Model S`,
-//     year: `2019`,
-//     range: `300`,
-// }
-
 const carTesla = new ElectricCar(`Tesla`, `Model S`, 2019, 300)
 
 console.log(carTesla)
